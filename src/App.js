@@ -1,9 +1,17 @@
+import React from 'react';
+
+// import './global.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Whatsapp Clone</h1>
+    <div className="app-window">
+      <div className="sidebar">
+        ...
+      </div>
+      <div className="contentarea">
+        ...
+      </div>
     </div>
   );
 }
