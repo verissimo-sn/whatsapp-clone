@@ -1,0 +1,49 @@
+.chatListItem {
+  display: flex;
+  align-items: center;
+
+  height: 70px;
+  cursor: pointer;
+}
+
+.chatListItem--avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.chatListItem--lines {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+
+  border-bottom: 1px solid #eee;
+  padding-right: 15px;
+  margin-left: 15px;
+}
+
+.chatListItem--line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.chatListItem--name {
+  font-size: 17px;
+  color: #000;
+}
+
+.chatListItem--date {
+  font-size: 12px;
+  color: #999;
+}
+
+.chatListItem--lastMsg {
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  color: 100%;
+}
