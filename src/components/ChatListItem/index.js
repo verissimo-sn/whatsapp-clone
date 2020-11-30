@@ -13,7 +13,9 @@ function ChatListItem() {
         </div>
         <div className="chatListItem--line">
           <div className="chatListItem--lastMsg">
-            <p>Ôlá, tudo bem ?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia 
+              illo vero voluptatibus itaque vel nisi porro eos ab quod animi ipsam 
+              repudiandae maxime doloremque omnis veritatis quasi, cupiditate qui tenetur.</p>
           </div>
         </div>
       </div>

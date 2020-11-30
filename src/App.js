@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
 
-  const [chatList, setChatList] = useState([{},{},{},{}]);
+  const [chatList, setChatList] = useState([{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]);
 
   return (
     <div className="app-window">
