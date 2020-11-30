@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
 import ChatListItem from './components/ChatListItem';
+import ChatIntro from './components/ChatIntro';
 
 import DonutLargeIcon from '@material-ui/icons/DonutLarge';
 import ChatIcon from '@material-ui/icons/Chat';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import SearchIcon from '@material-ui/icons/Search';
 
-// import './global.css';
 import './App.css';
 
 function App() {
@@ -50,7 +50,7 @@ function App() {
         </div>
       </div>
       <div className="contentarea">
-        ...
+        <ChatIntro />
       </div>
     </div>
   );
