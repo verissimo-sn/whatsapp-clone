@@ -6,6 +6,10 @@
   cursor: pointer;
 }
 
+.chatListItem.active {
+  background: #ebebeb;
+}
+
 .chatListItem:hover {
   background: #f5f5f5;
 }
