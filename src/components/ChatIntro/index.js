@@ -4,7 +4,7 @@ import './styles.css';
 
 function ChatIntro() {
   return (
-    <div className="ChatIntro">
+    <div className="chatIntro">
       <img src="" alt=""/>
       <h1>Mantenha seu celular conectado</h1>
       <h2>O whatsapp conecta ao seu telefone para sincronizar suas mensagens. 
