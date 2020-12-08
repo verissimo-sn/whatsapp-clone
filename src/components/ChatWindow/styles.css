@@ -59,5 +59,34 @@
 }
 
 .chatWindow--footer {
-  
+  display: flex;
+  align-items: center;
+  height: 62px;
 }
+
+.chatWindow--pre {
+  display: flex;
+  margin: 0 15px;
+}
+
+.chatWindow--inputarea {
+  flex: 1;
+}
+
+.chatWindow--input {
+  width: 100%;
+  height: 40px;
+  border: 0;
+  outline: 0;
+  background: #fff;
+  border-radius: 20px;
+  font-size: 15px;
+  color: #4a4a4a;
+  padding-left: 15px;
+}
+
+.chatWindow--pos {
+  display: flex;
+  margin: 0 15px;
+}
+
